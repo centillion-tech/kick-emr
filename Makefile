@@ -1,5 +1,5 @@
 PEM := kick-emr.pem
-KEYNAME := kick-emr
+KEYNAME := kick-emr-`id -un`
 
 all: $(PEM)
 
